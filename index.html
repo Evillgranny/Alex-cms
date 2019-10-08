@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body class="body">
     <header class="header">
@@ -60,13 +61,15 @@
                                 <a href="#" class="header-top__nav__lists_li_link">Контакты</a>
                             </li>
                             <li class="header-top__nav__lists_li header-top__nav__lists_li-margin-left">
-                                <a href="#" class="header-top__nav__lists_li_link">Войти</a>
+                                <span class="reg-enter" id="enter">Войти</span>
                             </li>
                             <li class="header-top__nav__lists_li">
-                                <a href="#" class="header-top__nav__lists_li_link">Регистрация</a>
+                                <span class="reg-enter" id="reg">Регистрация</span>
                             </li>
                         </ul>
                     </nav>
+                    <input type="text" class="header__bottom-container__right_search header__bottom-container__right_search-mobile">
+                    <img src="img/ham.png" alt="" id="ham" class="hamburger">
                 </div>
             </div>
         </div>
@@ -519,59 +522,343 @@
                 </div>
             </div>
         </div>
+
+        <menu class="mobile-menu">
+            <div class="wrapper">
+                <div class="mobile-menu__content">
+                    <img src="img/black-cross.png" alt="" class="mobile-menu__content__cross">
+                    <h3 class="mobile-menu__content_main">Каталог</h3>
+                    <ul class="mobile-menu__content_ul">
+
+                        <li class="mobile-menu__content_ul_li mobile-menu__content_ul_li-in">
+                                <span class="mobile-menu__content_ul_li-in_span">Мягкая мебель</span>
+                            <div class="mobile-menu__content_ul_li-in_ul__container">
+                                <ul class="mobile-menu__content_ul_li-in_ul">
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="mobile-menu__content_ul_li mobile-menu__content_ul_li-in">
+                            <span class="mobile-menu__content_ul_li-in_span">Офисная мебель</span>
+                            <div class="mobile-menu__content_ul_li-in_ul__container">
+                                <ul class="mobile-menu__content_ul_li-in_ul">
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="mobile-menu__content_ul_li mobile-menu__content_ul_li-in">
+                            <span class="mobile-menu__content_ul_li-in_span">Столы</span>
+                            <div class="mobile-menu__content_ul_li-in_ul__container">
+                                <ul class="mobile-menu__content_ul_li-in_ul">
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="mobile-menu__content_ul_li mobile-menu__content_ul_li-in">
+                            <span class="mobile-menu__content_ul_li-in_span">Кровати</span>
+                            <div class="mobile-menu__content_ul_li-in_ul__container">
+                                <ul class="mobile-menu__content_ul_li-in_ul">
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="mobile-menu__content_ul_li mobile-menu__content_ul_li-in">
+                            <span class="mobile-menu__content_ul_li-in_span">Ванны</span>
+                            <div class="mobile-menu__content_ul_li-in_ul__container">
+                                <ul class="mobile-menu__content_ul_li-in_ul">
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="mobile-menu__content_ul_li mobile-menu__content_ul_li-in">
+                            <span class="mobile-menu__content_ul_li-in_span">Аксессуары</span>
+                            <div class="mobile-menu__content_ul_li-in_ul__container">
+                                <ul class="mobile-menu__content_ul_li-in_ul">
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Позиция
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <h3 class="mobile-menu__content_main mt-40">О магазине</h3>
+                    <ul class="mobile-menu__content_ul">
+                        <li class="mobile-menu__content_ul_li mobile-menu__content_ul_li-in">
+                            <span class="mobile-menu__content_ul_li-in_span">Блог</span>
+                            <div class="mobile-menu__content_ul_li-in_ul__container">
+                                <ul class="mobile-menu__content_ul_li-in_ul">
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Новости
+                                        </a>
+                                    </li>
+                                    <li class="mobile-menu__content_ul_li-in_ul_li">
+                                        <a href="#" class="mobile-menu__content_ul_li-in_ul_li_link">
+                                            Статьи
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="mobile-menu__content_ul_li">
+                            <a href="#" class="mobile-menu__content_ul_li_link">
+                                Бренды
+                            </a>
+                        </li>
+                        <li class="mobile-menu__content_ul_li">
+                            <a href="#" class="mobile-menu__content_ul_li_link">
+                                Оплата
+                            </a>
+                        </li>
+                        <li class="mobile-menu__content_ul_li">
+                            <a href="#" class="mobile-menu__content_ul_li_link">
+                                Доставка
+                            </a>
+                        </li>
+                        <li class="mobile-menu__content_ul_li">
+                            <a href="#" class="mobile-menu__content_ul_li_link">
+                                Контакты
+                            </a>
+                        </li>
+                        <li id="enterMobile" class="mobile-menu__content_ul_li">
+                            Войти
+                        </li>
+                        <li id="regMobile" class="mobile-menu__content_ul_li">
+                            Регистрация
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </menu>
     </header>
 
     <main class="main">
-        <div class="main-slider">
-            <div class="main-slider__item">
-                <img src="img/slider-img.png" alt="" class="main-slider__item_img">
-                <div class="main-slider__item__container">
-                    <h2 class="main-slider__item__container_main">
+        <div class="main__slider">
+            <div class="main__slider__item">
+                <img src="img/slider-img.png" alt="" class="main__slider__item__img">
+                <div class="main__slider__item__container wrapper">
+                    <h1 class="main__slider__item_main">
                         ЗДЕСЬ КАКОЙ-НИБУДЬ <br>
                         ПРОДАЮЩИЙ ЗАГОЛОВОК!
-                    </h2>
-                    <p class="main-slider__item__container_main-text">
+                    </h1>
+                    <p class="main__slider__item_text">
                         А здесь уже продающий текст в пару строк, прочитав который, <br>
                         человек сразу же нажмет на кнопку Подробнее.
                     </p>
-                    <button class="main-slider__item__container_main-text_btn">
+                    <button class="main__slider__item_button">
                         Купить
                     </button>
                 </div>
             </div>
-            <div class="main-slider__item">
-                <img src="img/slider-img.png" alt="" class="main-slider__item_img">
-                <div class="main-slider__item__container">
-                    <h2 class="main-slider__item__container_main">
+            <div class="main__slider__item">
+                <img src="img/slider-img.png" alt="" class="main__slider__item__img">
+                <div class="main__slider__item__container wrapper">
+                    <h1 class="main__slider__item_main">
                         ЗДЕСЬ КАКОЙ-НИБУДЬ <br>
-                        ПРОДАЮЩИЙ ЗАГОЛОВОК! 2
-                    </h2>
-                    <p class="main-slider__item__container_main-text">
+                        ПРОДАЮЩИЙ ЗАГОЛОВОК!
+                    </h1>
+                    <p class="main__slider__item_text">
                         А здесь уже продающий текст в пару строк, прочитав который, <br>
                         человек сразу же нажмет на кнопку Подробнее.
                     </p>
-                    <button class="main-slider__item__container_main-text_btn">
+                    <button class="main__slider__item_button">
                         Купить
                     </button>
                 </div>
             </div>
-            <div class="main-slider__item">
-                <img src="img/slider-img.png" alt="" class="main-slider__item_img">
-                <div class="main-slider__item__container">
-                    <h2 class="main-slider__item__container_main">
+            <div class="main__slider__item">
+                <img src="img/slider-img.png" alt="" class="main__slider__item__img">
+                <div class="main__slider__item__container wrapper">
+                    <h1 class="main__slider__item_main">
                         ЗДЕСЬ КАКОЙ-НИБУДЬ <br>
-                        ПРОДАЮЩИЙ ЗАГОЛОВОК! 3
-                    </h2>
-                    <p class="main-slider__item__container_main-text">
+                        ПРОДАЮЩИЙ ЗАГОЛОВОК!
+                    </h1>
+                    <p class="main__slider__item_text">
                         А здесь уже продающий текст в пару строк, прочитав который, <br>
                         человек сразу же нажмет на кнопку Подробнее.
                     </p>
-                    <button class="main-slider__item__container_main-text_btn">
+                    <button class="main__slider__item_button">
                         Купить
                     </button>
                 </div>
             </div>
         </div>
+        <button class="main-mobile-btn">
+            Купить
+        </button>
     </main>
 
     <section class="hits">
@@ -617,6 +904,11 @@
                             <span class="good-card__bottom_price_roub">352,</span>
                             <span class="good-card__bottom_price_cop">00 BYN</span>
                         </p>
+                        <div class="good-card__bottom__mobile-container">
+                            <div class="good-card__bottom__mobile-container_item1"></div>
+                            <div class="good-card__bottom__mobile-container_item2"></div>
+                            <div class="good-card__bottom__mobile-container_item3"></div>
+                        </div>
                     </div>
                 </div>
 
@@ -657,6 +949,11 @@
                             <span class="good-card__bottom_price_roub">352,</span>
                             <span class="good-card__bottom_price_cop">00 BYN</span>
                         </p>
+                        <div class="good-card__bottom__mobile-container">
+                            <div class="good-card__bottom__mobile-container_item1"></div>
+                            <div class="good-card__bottom__mobile-container_item2"></div>
+                            <div class="good-card__bottom__mobile-container_item3"></div>
+                        </div>
                     </div>
                 </div>
 
@@ -697,6 +994,11 @@
                             <span class="good-card__bottom_price_roub">352,</span>
                             <span class="good-card__bottom_price_cop">00 BYN</span>
                         </p>
+                        <div class="good-card__bottom__mobile-container">
+                            <div class="good-card__bottom__mobile-container_item1"></div>
+                            <div class="good-card__bottom__mobile-container_item2"></div>
+                            <div class="good-card__bottom__mobile-container_item3"></div>
+                        </div>
                     </div>
                 </div>
 
@@ -737,6 +1039,11 @@
                             <span class="good-card__bottom_price_roub">352,</span>
                             <span class="good-card__bottom_price_cop">00 BYN</span>
                         </p>
+                        <div class="good-card__bottom__mobile-container">
+                            <div class="good-card__bottom__mobile-container_item1"></div>
+                            <div class="good-card__bottom__mobile-container_item2"></div>
+                            <div class="good-card__bottom__mobile-container_item3"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -774,9 +1081,9 @@
                 <form class="why-we__cards_form right-form">
                     <h3 class="right-form_main">Получите консультацию</h3>
                     <p class="right-form_text">Оставьте нам свой номер и мы Вам перезвоним</p>
-                    <input type="text" class="right-form_input right-form_name" placeholder="Ваше имя">
-                    <input type="tel" class="right-form_input right-form_tel"  placeholder="+375 (__) ___ __ __">
-                    <button class="right-form_btn">Заказать звонок</button>
+                    <input type="text" class="right-form_input right-form_name" pattern="/^[а-яa-z]+$/]" placeholder="Ваше имя" minlength="3">
+                    <input type="tel" class="right-form_input right-form_tel" pattern="^(\+375|80|375)(29|25|44|33)(\d{3})(\d{2})(\d{2})$" minlength="8"  placeholder="+375 (__) ___ __ __">
+                    <button class="thx-for right-form_btn">Заказать звонок</button>
                 </form>
             </div>
         </div>
@@ -825,6 +1132,11 @@
                             <span class="good-card__bottom_price_roub">352,</span>
                             <span class="good-card__bottom_price_cop">00 BYN</span>
                         </p>
+                        <div class="good-card__bottom__mobile-container">
+                            <div class="good-card__bottom__mobile-container_item1"></div>
+                            <div class="good-card__bottom__mobile-container_item2"></div>
+                            <div class="good-card__bottom__mobile-container_item3"></div>
+                        </div>
                     </div>
                 </div>
 
@@ -865,6 +1177,11 @@
                             <span class="good-card__bottom_price_roub">352,</span>
                             <span class="good-card__bottom_price_cop">00 BYN</span>
                         </p>
+                        <div class="good-card__bottom__mobile-container">
+                            <div class="good-card__bottom__mobile-container_item1"></div>
+                            <div class="good-card__bottom__mobile-container_item2"></div>
+                            <div class="good-card__bottom__mobile-container_item3"></div>
+                        </div>
                     </div>
                 </div>
 
@@ -905,6 +1222,11 @@
                             <span class="good-card__bottom_price_roub">352,</span>
                             <span class="good-card__bottom_price_cop">00 BYN</span>
                         </p>
+                        <div class="good-card__bottom__mobile-container">
+                            <div class="good-card__bottom__mobile-container_item1"></div>
+                            <div class="good-card__bottom__mobile-container_item2"></div>
+                            <div class="good-card__bottom__mobile-container_item3"></div>
+                        </div>
                     </div>
                 </div>
 
@@ -945,6 +1267,11 @@
                             <span class="good-card__bottom_price_roub">352,</span>
                             <span class="good-card__bottom_price_cop">00 BYN</span>
                         </p>
+                        <div class="good-card__bottom__mobile-container">
+                            <div class="good-card__bottom__mobile-container_item1"></div>
+                            <div class="good-card__bottom__mobile-container_item2"></div>
+                            <div class="good-card__bottom__mobile-container_item3"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -999,6 +1326,11 @@
                             <span class="good-card__bottom_price_roub">352,</span>
                             <span class="good-card__bottom_price_cop">00 BYN</span>
                         </p>
+                        <div class="good-card__bottom__mobile-container">
+                            <div class="good-card__bottom__mobile-container_item1"></div>
+                            <div class="good-card__bottom__mobile-container_item2"></div>
+                            <div class="good-card__bottom__mobile-container_item3"></div>
+                        </div>
                     </div>
                 </div>
 
@@ -1043,6 +1375,11 @@
                             <span class="good-card__bottom_price_roub">352,</span>
                             <span class="good-card__bottom_price_cop">00 BYN</span>
                         </p>
+                        <div class="good-card__bottom__mobile-container">
+                            <div class="good-card__bottom__mobile-container_item1"></div>
+                            <div class="good-card__bottom__mobile-container_item2"></div>
+                            <div class="good-card__bottom__mobile-container_item3"></div>
+                        </div>
                     </div>
                 </div>
 
@@ -1087,6 +1424,11 @@
                             <span class="good-card__bottom_price_roub">352,</span>
                             <span class="good-card__bottom_price_cop">00 BYN</span>
                         </p>
+                        <div class="good-card__bottom__mobile-container">
+                            <div class="good-card__bottom__mobile-container_item1"></div>
+                            <div class="good-card__bottom__mobile-container_item2"></div>
+                            <div class="good-card__bottom__mobile-container_item3"></div>
+                        </div>
                     </div>
                 </div>
 
@@ -1131,6 +1473,11 @@
                             <span class="good-card__bottom_price_roub">352,</span>
                             <span class="good-card__bottom_price_cop">00 BYN</span>
                         </p>
+                        <div class="good-card__bottom__mobile-container">
+                            <div class="good-card__bottom__mobile-container_item1"></div>
+                            <div class="good-card__bottom__mobile-container_item2"></div>
+                            <div class="good-card__bottom__mobile-container_item3"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1250,13 +1597,13 @@
     <footer class="footer">
         <div class="wrapper">
             <div class="footer__container">
-                <div class="footer-column">
+                <div class="footer-column footer-column1">
                     <a href="index.html">
                         <img src="img/footer-logo.png" alt="" class="footer-logo">
                     </a>
                 </div>
 
-                <div class="footer-column">
+                <div class="footer-column footer-column2">
                     <h4 class="footer-column_main">О магазине:</h4>
 
                     <ul class="footer-column-lists">
@@ -1291,7 +1638,7 @@
                     </ul>
                 </div>
 
-                <div class="footer-column">
+                <div class="footer-column footer-column3">
                     <h4 class="footer-column_main">Каталог:</h4>
 
                     <ul class="footer-column-lists">
@@ -1337,7 +1684,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer-column">
+                <div class="footer-column footer-column4">
                     <h4 class="footer-column_main">Мы принимаем:</h4>
 
                     <div class="footer-column__payment-container">
@@ -1346,7 +1693,7 @@
                     </div>
                 </div>
 
-                <div class="footer-column">
+                <div class="footer-column footer-column6">
                     <h4 class="footer-column_main">Контакты:</h4>
                     <ul class="footer-column-lists">
                         <li class="footer-column-lists__li">
@@ -1377,7 +1724,7 @@
                     </ul>
                 </div>
 
-                <div class="footer-column">
+                <div class="footer-column footer-column5">
                     <h4 class="footer-column_main">Социальные сети:</h4>
 
                     <div class="footer-column__social-container">
@@ -1398,6 +1745,50 @@
             </div>
         </div>
     </footer>
+
+    <section class="popups">
+        <div class="thx-popup popup">
+            <div class="thx-popup-content">
+                <p class="thx-popup-content__text">
+                    Спасибо! Наш специалист свяжется <br>
+                    с вами в ближайшие 20 минут
+                </p>
+            </div>
+        </div>
+
+        <div class="login-popup popup">
+            <form class="login-popup-content">
+                <h5 class="login-popup-content__main">
+                    Вход
+                </h5>
+                <input type="email" class="login-popup__input" placeholder="Е-mail">
+                <input type="password" class="login-popup__input" placeholder="Пароль">
+                <button class="login-popup__btn">
+                    Войти
+                </button>
+                <p class="login-popup-content__no-acc">
+                    Нет аккаунта?
+                <span class="login-popup-content__no-acc_go-reg">Зарегистрируйтесь</span></p>
+                <span class="popup_cross"></span>
+                <span class="fogot-pass">Забыли пароль?</span>
+            </form>
+        </div>
+
+        <div class="reg-popup popup">
+            <form class="reg-popup-content">
+                <h5 class="login-popup-content__main">
+                    Регистрация
+                </h5>
+                <input type="text" class="login-popup__input" placeholder="Имя">
+                <input type="email" class="login-popup__input" placeholder="Е-mail">
+                <input type="password" class="login-popup__input" placeholder="Пароль">
+                <button class="login-popup__btn">
+                    Войти
+                </button>
+                <span class="popup_cross"></span>
+            </form>
+        </div>
+    </section>
         <script src="js/jquery-3.3.1.min.js"></script>
         <script src="js/jquery.mousewheel.min.js"></script>
         <script src="owlcarousel/owl.carousel.min.js"></script>

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="784b45db-4587-4e16-9d2d-ea22a3de443d" name="Default Changelist" comment="" />
+    <list default="true" id="784b45db-4587-4e16-9d2d-ea22a3de443d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,14 +17,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.50421494">
+    <splitter split-orientation="horizontal" split-proportion="0.50790304">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="828">
-                  <caret line="459" column="91" selection-start-line="459" selection-start-column="39" selection-end-line="459" selection-end-column="91" />
+                <state relative-caret-position="749">
+                  <caret line="1746" column="12" selection-start-line="1746" selection-start-column="6" selection-end-line="1746" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -28,11 +33,20 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="746">
-                  <caret line="956" column="19" selection-start-line="956" selection-start-column="19" selection-end-line="956" selection-end-column="19" />
+                <state relative-caret-position="105">
+                  <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/responsive.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="808">
+                  <caret line="746" column="29" selection-start-line="746" selection-start-column="29" selection-end-line="746" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -40,8 +54,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+                <state relative-caret-position="533">
+                  <caret line="79" column="35" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
@@ -54,52 +68,56 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>header-top__nav__lists_li_dd-container</find>
-      <find>header-top__nav__lists_li_dd-btn</find>
-      <find>header-top__nav__lists_li_dd-container_li</find>
-      <find>header-top__nav__lists_li_dd-container_li_dd-in-dd_link</find>
-      <find>.header-top__nav__lists_li</find>
-      <find>каталог</find>
+      <find>.brands-slider .slick-next</find>
+      <find>brands-slider__item_img</find>
       <find>header__bottom-container__right_search</find>
-      <find>wrapper</find>
-      <find>header__bottom-container__menu__top_item__content_left</find>
-      <find>.header__bottom-container__menu__top_item__content_left</find>
-      <find>header__bottom-container__menu__top_item__content_left_li_content_item_text</find>
-      <find>class=&quot;header__bottom-container__menu__top_item&quot;</find>
-      <find>header__bottom-container__menu__top_item</find>
-      <find>header__bottom-container__menu__top_item__content_left_li_content</find>
-      <find>header__bottom-container__right_label</find>
-      <find>main-slider-item</find>
-      <find>мягкая ме</find>
-      <find>.header__bottom-container__menu__top_item__content_left_li_content</find>
-      <find>.header__bottom-container__menu__top_item</find>
-      <find>98</find>
-      <find>738</find>
-      <find>good-card__mask</find>
-      <find>good-card__bottom_price</find>
-      <find>next</find>
-      <find>margin-bottom: 65px;</find>
-      <find>footer-column</find>
-      <find>header__bottom-container__right_label_img</find>
-      <find>transi</find>
-      <find>header__bottom-container__right_label_img-counter</find>
-      <find>header__bottom-container__right__search-block_result</find>
+      <find>main-slider-next</find>
+      <find>mobile-menu__content_ul_li-in_ul__container</find>
+      <find>mobile-menu__content</find>
+      <find>mobile-menu__content_ul_li</find>
+      <find>mobile-menu</find>
+      <find>mobile-menu</find>
+      <find>хиты продаж</find>
+      <find>mobile-menu__content</find>
+      <find>good-card</find>
+      <find>why-we</find>
+      <find>news</find>
+      <find>news-cards__card</find>
+      <find>mobile-menu__content_ul_li-in</find>
+      <find>brands-slider</find>
+      <find>enter</find>
+      <find>.popup</find>
+      <find>enter</find>
+      <find>mobile-menu__content_ul_li-in_span-checked</find>
+      <find>main__slider__item</find>
+      <find>hits</find>
+      <find>.section-main</find>
+      <find>login-popup</find>
+      <find>.why-we__cards</find>
+      <find>.why-we__cards</find>
+      <find>brands</find>
+      <find>novice</find>
+      <find>контакты</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/reset.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/responsive.css" />
       </list>
     </option>
   </component>
@@ -109,6 +127,7 @@
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -125,7 +144,7 @@
             <path>
               <item name="alex cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="alex cms" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -170,12 +189,16 @@
       <workItem from="1565380298851" duration="5582000" />
       <workItem from="1565421098165" duration="10267000" />
       <workItem from="1565463864661" duration="9231000" />
-      <workItem from="1565505325572" duration="11522000" />
+      <workItem from="1565505325572" duration="21266000" />
+      <workItem from="1565635594320" duration="656000" />
+      <workItem from="1570118438993" duration="13885000" />
+      <workItem from="1570149612796" duration="607000" />
+      <workItem from="1570451017465" duration="32026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64287000" />
+    <option name="totallyTimeSpent" value="121205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -219,24 +242,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        <state relative-caret-position="533">
+          <caret line="79" column="35" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="459" column="91" selection-start-line="459" selection-start-column="39" selection-end-line="459" selection-end-column="91" />
+        <state relative-caret-position="749">
+          <caret line="1746" column="12" selection-start-line="1746" selection-start-column="6" selection-end-line="1746" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="956" column="19" selection-start-line="956" selection-start-column="19" selection-end-line="956" selection-end-column="19" />
+        <state relative-caret-position="808">
+          <caret line="746" column="29" selection-start-line="746" selection-start-column="29" selection-end-line="746" selection-end-column="29" />
         </state>
       </provider>
     </entry>
