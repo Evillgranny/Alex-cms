@@ -380,6 +380,19 @@
         padding-bottom: 60px;
     }
     /*Бренды*/
+    /*Оплата*/
+    .payment__container {
+        flex-direction: column;
+    }
+    .payment__container__right {
+        align-self: center;
+        margin-top: 60px;
+    }
+    .payment {
+        padding-bottom: 60px;
+    }
+    /*Оплата*/
+
 }
 @media screen and (max-width: 730px) {
     .wrapper {
@@ -812,6 +825,74 @@
         padding-bottom: 36px;
     }
     /*Бренды*/
+    /*Оплата*/
+    .bread__ul_li_link {
+        font-size: 10px;
+    }
+    .payment__container__left_p_container_img {
+        width: 33px;
+        height: 24px;
+        margin-right: 8px;
+    }
+    .payment__container__left_p {
+        font-size: 18px;
+    }
+    .payment__container__left_p_container {
+        margin-bottom: 18px;
+    }
+    .payment__container__left_p_light {
+        font-size: 18px;
+    }
+    .payment__container__left_images_img {
+        margin-right: 12px;
+    }
+    .payment__container__left_images_img:nth-child(n + 3) {
+        margin-top: 12px;
+    }
+    .payment__container__left_images {
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+    .payment__container__left_images_img1 {
+        width: 98px;
+        height: 32px;
+    }
+    .payment__container__left_images_img2 {
+        width: 53px;
+        height: 32px;
+    }
+    .payment__container__left_images_img3 {
+        width: 121px;
+        height: 32px;
+    }
+    .payment__container__left_images_img4 {
+        width: 87px;
+        height: 32px;
+    }
+    .payment__container__right {
+        margin-top: 31px;
+    }
+    .payment__container__right {
+        width: 220px;
+    }
+    .payment__container__right_h2 {
+        font-size: 16px;
+    }
+    .payment__container__right_p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 11px;
+    }
+    .payment__container__right_input {
+        width: 100%;
+    }
+    .payment__container__right_btn {
+        width: 100%;
+    }
+    .payment {
+        padding-bottom: 40px;
+    }
+    /*Оплата*/
 }
 @media screen and (max-width: 630px) {
     .main__slider__item {

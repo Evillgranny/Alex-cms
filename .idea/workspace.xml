@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="784b45db-4587-4e16-9d2d-ea22a3de443d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,11 +36,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/brands.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="281">
-                  <caret line="777" column="34" selection-start-line="777" selection-start-column="28" selection-end-line="777" selection-end-column="34" />
+                <state relative-caret-position="319">
+                  <caret line="897" selection-start-line="897" selection-end-line="1104" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/payment.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="550">
+                  <caret line="843" column="140" selection-start-line="843" selection-start-column="104" selection-end-line="843" selection-end-column="140" />
                 </state>
               </provider>
             </entry>
@@ -55,8 +61,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="245">
-                  <caret line="1188" column="22" lean-forward="true" selection-start-line="1188" selection-start-column="22" selection-end-line="1188" selection-end-column="22" />
+                <state relative-caret-position="-367">
+                  <caret line="1277" column="24" selection-start-line="1277" selection-start-column="24" selection-end-line="1277" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -64,8 +70,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/responsive.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="721">
-                  <caret line="379" column="29" selection-start-line="379" selection-start-column="29" selection-end-line="379" selection-end-column="29" />
+                <state relative-caret-position="781">
+                  <caret line="875" column="21" selection-start-line="875" selection-start-column="21" selection-end-line="875" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -103,11 +109,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mobile-menu__content_ul_li-in_ul__container</find>
-      <find>mobile-menu__content</find>
-      <find>mobile-menu__content_ul_li</find>
-      <find>mobile-menu</find>
-      <find>хиты продаж</find>
       <find>good-card</find>
       <find>why-we</find>
       <find>news</find>
@@ -128,11 +129,16 @@
       <find>news2</find>
       <find>blog</find>
       <find>mobile-menu__content_ul_li-in_ul_li_link</find>
-      <find>блог</find>
-      <find>section-sub-main</find>
       <find>bread</find>
       <find>promo</find>
+      <find>блог</find>
+      <find>section-main top-page_main</find>
+      <find>payment__container__right</find>
       <find>бренды</find>
+      <find>top-page-container</find>
+      <find>payment__container</find>
+      <find>section-sub-main</find>
+      <find>payment__container__left_p_container</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,11 +150,12 @@
         <option value="$PROJECT_DIR$/css/reset.css" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/js/global.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/css/responsive.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/blog.html" />
         <option value="$PROJECT_DIR$/brands.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/payment.html" />
+        <option value="$PROJECT_DIR$/css/responsive.css" />
       </list>
     </option>
   </component>
@@ -226,12 +233,12 @@
       <workItem from="1570149612796" duration="607000" />
       <workItem from="1570451017465" duration="32026000" />
       <workItem from="1570536279132" duration="24000" />
-      <workItem from="1571229729948" duration="11511000" />
+      <workItem from="1571229729948" duration="15997000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132740000" />
+    <option name="totallyTimeSpent" value="137226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -289,17 +296,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="1188" column="22" lean-forward="true" selection-start-line="1188" selection-start-column="22" selection-end-line="1188" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="379" column="29" selection-start-line="379" selection-start-column="29" selection-end-line="379" selection-end-column="29" />
+        <state relative-caret-position="281">
+          <caret line="1169" column="34" selection-start-line="1169" selection-start-column="28" selection-end-line="1169" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -310,17 +310,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog.html">
+    <entry file="file://$PROJECT_DIR$/brands.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="1169" column="34" selection-start-line="1169" selection-start-column="28" selection-end-line="1169" selection-end-column="34" />
+        <state relative-caret-position="319">
+          <caret line="897" selection-start-line="897" selection-end-line="1104" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brands.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="777" column="34" selection-start-line="777" selection-start-column="28" selection-end-line="777" selection-end-column="34" />
+        <state relative-caret-position="-367">
+          <caret line="1277" column="24" selection-start-line="1277" selection-start-column="24" selection-end-line="1277" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="843" column="140" selection-start-line="843" selection-start-column="104" selection-end-line="843" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="781">
+          <caret line="875" column="21" selection-start-line="875" selection-start-column="21" selection-end-line="875" selection-end-column="21" />
         </state>
       </provider>
     </entry>
