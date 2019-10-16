@@ -349,6 +349,37 @@
     .footer-column6 {
         order: 5;
     }
+    /*БЛОГ*/
+    .news2 {
+        padding-top: 0;
+    }
+    .bread {
+        margin-bottom: 35px;
+    }
+    .top-page {
+        padding-top: 16px;
+        padding-bottom: 30px;
+    }
+    .section-sub-main {
+        margin-bottom: 37px;
+        font-size: 24px;
+        line-height: 20px;
+    }
+    .promo-border {
+        padding-top: 50px;
+    }
+    /*БЛОГ*/
+    /*Бренды*/
+    .brands-page__container__card {
+        width: 300px;
+    }
+    .brands-page__container__card:nth-child(n + 3) {
+        margin-top: 40px;
+    }
+    .brands-page {
+        padding-bottom: 60px;
+    }
+    /*Бренды*/
 }
 @media screen and (max-width: 730px) {
     .wrapper {
@@ -633,6 +664,9 @@
     .news-cards__card {
         margin-top: 20px !important;
     }
+    .news .news-cards__card:first-child {
+        margin: 0 !important;
+    }
     .news-main {
         margin-bottom: 0;
     }
@@ -746,6 +780,38 @@
         height: 330px;
         top: calc(50% - 165px);
     }
+    /*Блог*/
+    .section-sub-main {
+        font-size: 18px;
+        line-height: 12px;
+        margin-bottom: 20px;
+    }
+    .top-page {
+        padding-top: 8px;
+        padding-bottom: 23px;
+    }
+    .bread {
+        margin-bottom: 15px;
+    }
+    .promo-border {
+        padding-top: 35px;
+    }
+    /*Блог*/
+    /*Бренды*/
+    .brands-page__container__card:nth-child(n + 2) {
+        margin-top: 20px;
+    }
+    .brands-page__container__card_main {
+        font-size: 16px;
+        margin-top: 7px;
+    }
+    .brands-page__container__card_btn {
+        margin-top: 13px;
+    }
+    .brands-page {
+        padding-bottom: 36px;
+    }
+    /*Бренды*/
 }
 @media screen and (max-width: 630px) {
     .main__slider__item {
