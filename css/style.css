@@ -1325,3 +1325,138 @@
 .payment__container__right_input:-moz-placeholder           {color: #B8B8B8;}/* Firefox 18- */
 .payment__container__right_input:-ms-input-placeholder      {color: #B8B8B8;}
 /*Оплата*/
+/*Доставка*/
+.delivery__container_p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: justify;
+    color: #383E3E;
+}
+.delivery__container_p_span {
+    font-weight: 500;
+}
+.delivery__container .delivery__container_p {
+    margin-bottom: 30px;
+}
+.delivery {
+    padding-bottom: 100px;
+}
+.delivery__container {
+    display: flex;
+    justify-content: space-between;
+}
+.delivery__container__left {
+    width: 700px;
+}
+.payment__container__right2 {
+    align-self: flex-start;
+}
+/*Доставка*/
+/*Контакты*/
+.contacts {
+    padding-bottom: 100px;
+}
+.contacts__container__left_city-choose {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+.contacts__container__left_city-choose:hover .contacts__container__left_city-choose_arrow {
+    transform: rotate(180deg);
+}
+.contacts__container__left_city-choose_city {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    color: #383E3E;
+}
+.contacts__container__left_city-choose_arrow {
+    display: block;
+    width: 12px;
+    height: 6px;
+    background: url(../img/dd-arr.png) no-repeat center center / 100% 100%;
+    margin-left: 7px;
+    transition: .5s;
+}
+.contacts__container__left_city-choose-content {
+    display: none;
+    top: 30px;
+    position: absolute;
+    padding-top: 5px;
+    width: 100%;
+}
+.contacts__container__left_city-choose:hover .contacts__container__left_city-choose-content {
+    display: block;
+}
+.contacts__container__left_city-choose_link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #383E3E;
+    text-decoration: none;
+    display: block;
+}
+.contacts__container__left_city-choose_link_first {
+    margin-top: 40px;
+}
+.contacts__container__left_city-choose_p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #383E3E;
+    opacity: .4;
+    cursor: pointer;
+    transition: 1s;
+    height: 30px;
+}
+.contacts__container__left_city-choose_p-check {
+    opacity: 1;
+}
+.contacts__container__left_city-choose_p::before {
+    content: url(../img/metka.png);
+    position: relative;
+    top: 3px;
+}
+.contacts__container__left_city-choose_p-first {
+    margin-top: 16px;
+}
+.contacts__container_map {
+    width: 677px;
+    height: 530px;
+}
+.contacts__container {
+    display: flex;
+    justify-content: space-between;
+}
+.contacts__container__left_city-choose_container-vitebsk {
+    display: none;
+}
+.contacts__container__left_city-choose_mail-link {
+    margin-top: 16px;
+}
+.contacts__container__left_city-choose__soscial {
+    display: flex;
+    margin-top: 40px;
+}
+.contacts__container__left_city-choose__soscial_link {
+    display: block;
+    margin-right: 24px;
+}
+.contacts__container__left_city-choose__soscial_link:last-child {
+    margin-right: 0;
+}
+.payment__container__right3 {
+    margin-right: 0;
+    margin-top: 56px;
+}
+.payment__container__right4 {
+    display: none;
+}
+/*Контакты*/
