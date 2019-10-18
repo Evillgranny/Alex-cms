@@ -116,3 +116,10 @@ $('#regMobile').click(function () {
     $('.mobile-menu').fadeOut(500)
     $('.reg-popup').fadeIn(500)
 });
+$('.comparison__container__content_left_hide').click(function () {
+    if ($(this).hasClass('comparison__container__content_left_hide-check')) {
+        $(this).removeClass('comparison__container__content_left_hide-check')
+    } else {
+        $(this).addClass('comparison__container__content_left_hide-check')
+    }
+})
