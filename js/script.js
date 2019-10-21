@@ -17,8 +17,8 @@ window.onload = function () {
         infinite: true,
         autoplay: false,
         autoplaySpeed: 3000,
-        nextArrow: `<button class="main-slider-next">`,
-        prevArrow: `<button class="main-slider-prev">`,
+        nextArrow: `<button class="main-slider-next"></button>`,
+        prevArrow: `<button class="main-slider-prev"></button>`,
         responsive: [
             {
                 breakpoint: 1540,
@@ -31,8 +31,8 @@ window.onload = function () {
     });
     $('.brands-slider').slick({
         slidesToShow: 5,
-        nextArrow: `<button class="brands-slider-next">`,
-        prevArrow: `<button class="brands-slider-prev">`,
+        nextArrow: `<button class="brands-slider-next"></button>`,
+        prevArrow: `<button class="brands-slider-prev"></button>`,
         responsive: [
             {
                 breakpoint: 1280,

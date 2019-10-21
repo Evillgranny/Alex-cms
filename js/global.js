@@ -123,3 +123,13 @@ $('.comparison__container__content_left_hide').click(function () {
         $(this).addClass('comparison__container__content_left_hide-check')
     }
 })
+$('.hits-page__container-right_dd_ul_li').click(function () {
+    let oldItem = $('.hits-page__container-right_dd_span').text();
+    let newItem = $(this).text();
+    $('.hits-page__container-right_dd_span').text(newItem)
+    $(this).text(oldItem)
+});
+$('.hits-page_show-all-btn').click(function () {
+    $(this).nextAll('.hits-page__columns__left-column_category-filter_ul_li').show()
+    $(this).hide();
+})

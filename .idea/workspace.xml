@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/global.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,41 +18,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5121654">
+    <splitter split-orientation="horizontal" split-proportion="0.46107057">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/contacts.html">
+            <entry file="file://$PROJECT_DIR$/hits.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="427">
-                  <caret line="1120" column="52" lean-forward="true" selection-start-line="1120" selection-start-column="52" selection-end-line="1120" selection-end-column="52" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/comparison.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="681">
-                  <caret line="1917" column="46" selection-start-line="1917" selection-start-column="46" selection-end-line="1917" selection-end-column="46" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/favourites.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="10884">
-                  <caret line="1426" column="46" selection-start-line="1426" selection-start-column="46" selection-end-line="1426" selection-end-column="46" />
+                <state relative-caret-position="14603">
+                  <caret line="859" column="124" selection-start-line="859" selection-start-column="76" selection-end-line="859" selection-end-column="124" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/cart.html">
+            <entry file="file://$PROJECT_DIR$/good-cart.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="32">
-                  <caret line="853" column="78" selection-start-line="853" selection-start-column="78" selection-end-line="853" selection-end-column="78" />
+                <state relative-caret-position="265">
+                  <caret line="906" column="26" selection-start-line="906" selection-start-column="26" selection-end-line="906" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -63,8 +46,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="570">
-                  <caret line="1845" column="1" lean-forward="true" selection-start-line="1845" selection-start-column="1" selection-end-line="1845" selection-end-column="1" />
+                <state relative-caret-position="242">
+                  <caret line="2280" column="18" selection-start-line="2280" selection-start-column="18" selection-end-line="2280" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -72,35 +55,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/responsive.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="802">
-                  <caret line="1207" column="20" selection-start-line="1207" selection-start-column="20" selection-end-line="1207" selection-end-column="20" />
+                <state relative-caret-position="700">
+                  <caret line="1724" column="8" selection-start-line="1724" selection-start-column="8" selection-end-line="1724" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/map.js">
+            <entry file="file://$PROJECT_DIR$/js/good-card.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="336">
-                  <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/global.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="841">
-                  <caret line="124" column="2" selection-start-line="124" selection-start-column="2" selection-end-line="124" selection-end-column="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/cart-script.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="17" selection-start-line="17" selection-end-line="17" />
+                <state relative-caret-position="221">
+                  <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -120,36 +85,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.delivery__container</find>
-      <find>оплата</find>
-      <find>Оплата</find>
-      <find>payment__container__left_p_container_img</find>
-      <find>map</find>
-      <find>contacts__container__left_city-choose_arrow</find>
-      <find>contacts__container__left_city-choose</find>
-      <find>contacts__container_map</find>
-      <find>contacts__container__left_city-choose_p</find>
-      <find>contacts__container__left_city-choose-content</find>
-      <find>.good-card-cross</find>
-      <find>comp</find>
-      <find>top</find>
-      <find>secti</find>
-      <find>очистить</find>
-      <find>sec</find>
+      <find>hits-page__columns__left-column&quot;</find>
+      <find>hits-page__columns__right</find>
+      <find>hits-page__container-top</find>
+      <find>hits-page__columns__left-column</find>
+      <find>hits-page__columns</find>
+      <find>.hits-page__columns__left-column</find>
+      <find>hits-page__columns__left-column_category-filter_ul_li_radio-span</find>
       <find>bread</find>
-      <find>countID</find>
-      <find>#B8B8B8;</find>
-      <find>dec</find>
-      <find>inc</find>
-      <find>cart-container__ul_li_img</find>
-      <find>order-registration__container</find>
-      <find>cart</find>
-      <find>order-registration</find>
-      <find>cart-container__ul_li_description_p</find>
-      <find>cart-container__ul_li</find>
-      <find>good-card__bottom_price_cop</find>
-      <find>.comparison__container__content_left_hide::before</find>
-      <find>comparison__container__content_left_hide</find>
+      <find>slick</find>
+      <find>slider</find>
+      <find>sect</find>
+      <find>good-cart__container__left_slider-bottom</find>
+      <find>ь/</find>
+      <find>good-cart__container__color-container_img</find>
+      <find>good-cart__container__color-container</find>
+      <find>good-cart__page</find>
+      <find>texta</find>
+      <find>hits-page__columns__left-column_category-filter</find>
+      <find>good-description_next-page</find>
+      <find>textat</find>
+      <find>good-cart__container__stars-block_star</find>
+      <find>good-description__container_description_old-comments</find>
+      <find>class=&quot;good-cart__container__color-stars-container&quot;</find>
+      <find>good-description__container_description3</find>
+      <find>.good-description__container_description_ul_li_left-span-hr</find>
+      <find>.good-cart__container__btns</find>
+      <find>good-cart__container__btns_to-card-fav</find>
+      <find>.good-cart__container__btns_to-card-fav</find>
+      <find>.good-cart__container__right</find>
+      <find>.good-cart__container__right</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,7 +124,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/reset.css" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/blog.html" />
         <option value="$PROJECT_DIR$/brands.html" />
@@ -170,9 +134,14 @@
         <option value="$PROJECT_DIR$/comparison.html" />
         <option value="$PROJECT_DIR$/favourites.html" />
         <option value="$PROJECT_DIR$/cart.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/cart-script.js" />
+        <option value="$PROJECT_DIR$/js/hits.js" />
+        <option value="$PROJECT_DIR$/hits.html" />
         <option value="$PROJECT_DIR$/js/global.js" />
+        <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/js/good-card.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/good-cart.html" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
       </list>
     </option>
@@ -254,17 +223,20 @@
       <workItem from="1571229729948" duration="24215000" />
       <workItem from="1571327377959" duration="18980000" />
       <workItem from="1571402980752" duration="20699000" />
+      <workItem from="1571500414269" duration="17513000" />
+      <workItem from="1571576807969" duration="20330000" />
+      <workItem from="1571653691690" duration="9615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185123000" />
+    <option name="totallyTimeSpent" value="232581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13382508" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13382508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -302,13 +274,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="100" selection-start-line="54" selection-start-column="94" selection-end-line="54" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/brands.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="841">
@@ -320,41 +285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="841">
           <caret line="54" column="96" selection-start-line="54" selection-start-column="90" selection-end-line="54" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/payment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="1090" column="28" selection-start-line="1090" selection-start-column="28" selection-end-line="1090" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="1074" column="25" lean-forward="true" selection-start-line="1074" selection-start-column="25" selection-end-line="1074" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="1120" column="52" lean-forward="true" selection-start-line="1120" selection-start-column="52" selection-end-line="1120" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comparison.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="1917" column="46" selection-start-line="1917" selection-start-column="46" selection-end-line="1917" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/favourites.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10884">
-          <caret line="1426" column="46" selection-start-line="1426" selection-start-column="46" selection-end-line="1426" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -374,22 +304,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="853" column="78" selection-start-line="853" selection-start-column="78" selection-end-line="853" selection-end-column="78" />
+        <state relative-caret-position="102">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -400,24 +316,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/global.js">
+    <entry file="file://$PROJECT_DIR$/delivery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="1074" column="25" lean-forward="true" selection-start-line="1074" selection-start-column="25" selection-end-line="1074" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="841">
-          <caret line="124" column="2" selection-start-line="124" selection-start-column="2" selection-end-line="124" selection-end-column="2" />
+          <caret line="1120" column="52" selection-start-line="1120" selection-start-column="52" selection-end-line="1120" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comparison.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="1917" column="46" selection-start-line="1917" selection-start-column="46" selection-end-line="1917" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favourites.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="1426" column="46" selection-start-line="1426" selection-start-column="46" selection-end-line="1426" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="853" column="78" selection-end-line="1409" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="1090" column="28" selection-start-line="1090" selection-start-column="28" selection-end-line="1090" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/hits.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="131" column="48" selection-start-line="131" selection-start-column="48" selection-end-line="131" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="1796" column="8" lean-forward="true" selection-start-line="1796" selection-start-column="8" selection-end-line="1796" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hits.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14603">
+          <caret line="859" column="124" selection-start-line="859" selection-start-column="76" selection-end-line="859" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/good-card.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="1845" column="1" lean-forward="true" selection-start-line="1845" selection-start-column="1" selection-end-line="1845" selection-end-column="1" />
+        <state relative-caret-position="242">
+          <caret line="2280" column="18" selection-start-line="2280" selection-start-column="18" selection-end-line="2280" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/good-cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="906" column="26" selection-start-line="906" selection-start-column="26" selection-end-line="906" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="802">
-          <caret line="1207" column="20" selection-start-line="1207" selection-start-column="20" selection-end-line="1207" selection-end-column="20" />
+        <state relative-caret-position="700">
+          <caret line="1724" column="8" selection-start-line="1724" selection-start-column="8" selection-end-line="1724" selection-end-column="8" />
         </state>
       </provider>
     </entry>
