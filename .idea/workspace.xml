@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="784b45db-4587-4e16-9d2d-ea22a3de443d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/global.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,17 +21,35 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/hits.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="14603">
-                  <caret line="859" column="124" selection-start-line="859" selection-start-column="76" selection-end-line="859" selection-end-column="124" />
+                <state relative-caret-position="281">
+                  <caret line="809" selection-start-line="809" selection-end-line="827" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/good-cart.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="681">
+                  <caret line="1072" column="21" lean-forward="true" selection-start-line="972" selection-start-column="16" selection-end-line="1072" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/news.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="281">
+                  <caret line="842" column="53" selection-start-line="842" selection-start-column="49" selection-end-line="842" selection-end-column="53" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/good-cart.html">
+            <entry file="file://$PROJECT_DIR$/specific-news.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="265">
-                  <caret line="906" column="26" selection-start-line="906" selection-start-column="26" selection-end-line="906" selection-end-column="26" />
+                <state relative-caret-position="552">
+                  <caret line="872" column="62" selection-start-line="872" selection-start-column="24" selection-end-line="872" selection-end-column="62" />
                 </state>
               </provider>
             </entry>
@@ -46,8 +61,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="242">
-                  <caret line="2280" column="18" selection-start-line="2280" selection-start-column="18" selection-end-line="2280" selection-end-column="18" />
+                <state relative-caret-position="726">
+                  <caret line="2518" column="26" selection-start-line="2518" selection-start-column="26" selection-end-line="2518" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -55,8 +70,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/responsive.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="700">
-                  <caret line="1724" column="8" selection-start-line="1724" selection-start-column="8" selection-end-line="1724" selection-end-column="8" />
+                <state relative-caret-position="627">
+                  <caret line="1852" column="28" selection-start-line="1852" selection-start-column="28" selection-end-line="1852" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -78,43 +93,43 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hits-page__columns__left-column&quot;</find>
-      <find>hits-page__columns__right</find>
-      <find>hits-page__container-top</find>
-      <find>hits-page__columns__left-column</find>
-      <find>hits-page__columns</find>
-      <find>.hits-page__columns__left-column</find>
       <find>hits-page__columns__left-column_category-filter_ul_li_radio-span</find>
-      <find>bread</find>
       <find>slick</find>
       <find>slider</find>
-      <find>sect</find>
       <find>good-cart__container__left_slider-bottom</find>
       <find>ь/</find>
       <find>good-cart__container__color-container_img</find>
       <find>good-cart__container__color-container</find>
       <find>good-cart__page</find>
-      <find>texta</find>
       <find>hits-page__columns__left-column_category-filter</find>
       <find>good-description_next-page</find>
       <find>textat</find>
       <find>good-cart__container__stars-block_star</find>
       <find>good-description__container_description_old-comments</find>
       <find>class=&quot;good-cart__container__color-stars-container&quot;</find>
-      <find>good-description__container_description3</find>
       <find>.good-description__container_description_ul_li_left-span-hr</find>
       <find>.good-cart__container__btns</find>
       <find>good-cart__container__btns_to-card-fav</find>
       <find>.good-cart__container__btns_to-card-fav</find>
       <find>.good-cart__container__right</find>
+      <find>good-description__container__btns-block_btn_comments-span</find>
+      <find>top-pa</find>
+      <find>sect</find>
+      <find>sec</find>
+      <find>bread</find>
+      <find>good-description__container_description3</find>
+      <find>texta</find>
+      <find>textar</find>
+      <find>specific-news-top__article</find>
       <find>.good-cart__container__right</find>
+      <find>.specific-news-top__article</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,8 +155,10 @@
         <option value="$PROJECT_DIR$/js/global.js" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/js/good-card.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/good-cart.html" />
+        <option value="$PROJECT_DIR$/news.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/specific-news.html" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
       </list>
     </option>
@@ -225,12 +242,12 @@
       <workItem from="1571402980752" duration="20699000" />
       <workItem from="1571500414269" duration="17513000" />
       <workItem from="1571576807969" duration="20330000" />
-      <workItem from="1571653691690" duration="9615000" />
+      <workItem from="1571653691690" duration="16160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232581000" />
+    <option name="totallyTimeSpent" value="239126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -386,13 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hits.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14603">
-          <caret line="859" column="124" selection-start-line="859" selection-start-column="76" selection-end-line="859" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/good-card.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -400,24 +410,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/hits.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="2280" column="18" selection-start-line="2280" selection-start-column="18" selection-end-line="2280" selection-end-column="18" />
+        <state relative-caret-position="281">
+          <caret line="809" selection-start-line="809" selection-end-line="827" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="842" column="53" selection-start-line="842" selection-start-column="49" selection-end-line="842" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/good-cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="906" column="26" selection-start-line="906" selection-start-column="26" selection-end-line="906" selection-end-column="26" />
+        <state relative-caret-position="681">
+          <caret line="1072" column="21" lean-forward="true" selection-start-line="972" selection-start-column="16" selection-end-line="1072" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="2518" column="26" selection-start-line="2518" selection-start-column="26" selection-end-line="2518" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specific-news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="872" column="62" selection-start-line="872" selection-start-column="24" selection-end-line="872" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="1724" column="8" selection-start-line="1724" selection-start-column="8" selection-end-line="1724" selection-end-column="8" />
+        <state relative-caret-position="627">
+          <caret line="1852" column="28" selection-start-line="1852" selection-start-column="28" selection-end-line="1852" selection-end-column="28" />
         </state>
       </provider>
     </entry>
