@@ -15,14 +15,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46107057">
+    <splitter split-orientation="horizontal" split-proportion="0.6057207">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/hits.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="281">
-                  <caret line="809" selection-start-line="809" selection-end-line="827" selection-end-column="10" />
+                  <caret line="809" selection-end-line="1829" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -39,17 +39,26 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/news.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="281">
+                <state relative-caret-position="-8248">
                   <caret line="842" column="53" selection-start-line="842" selection-start-column="49" selection-end-line="842" selection-end-column="53" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/specific-news.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="552">
-                  <caret line="872" column="62" selection-start-line="872" selection-start-column="24" selection-end-line="872" selection-end-column="62" />
+                <state relative-caret-position="516">
+                  <caret line="824" column="76" lean-forward="true" selection-start-line="824" selection-start-column="76" selection-end-line="824" selection-end-column="76" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/personal-account.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="281">
+                  <caret line="1035" column="151" selection-start-line="1035" selection-start-column="91" selection-end-line="1035" selection-end-column="151" />
                 </state>
               </provider>
             </entry>
@@ -61,8 +70,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="726">
-                  <caret line="2518" column="26" selection-start-line="2518" selection-start-column="26" selection-end-line="2518" selection-end-column="26" />
+                <state relative-caret-position="434">
+                  <caret line="2794" column="21" lean-forward="true" selection-start-line="2794" selection-start-column="21" selection-end-line="2794" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -70,17 +79,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/responsive.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="627">
-                  <caret line="1852" column="28" selection-start-line="1852" selection-start-column="28" selection-end-line="1852" selection-end-column="28" />
+                <state relative-caret-position="776">
+                  <caret line="956" column="28" selection-start-line="956" selection-start-column="28" selection-end-line="956" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/good-card.js">
+            <entry file="file://$PROJECT_DIR$/js/personal-account.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+                <state relative-caret-position="580">
+                  <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -93,44 +102,47 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hits-page__columns__left-column_category-filter_ul_li_radio-span</find>
-      <find>slick</find>
-      <find>slider</find>
-      <find>good-cart__container__left_slider-bottom</find>
-      <find>ь/</find>
-      <find>good-cart__container__color-container_img</find>
-      <find>good-cart__container__color-container</find>
-      <find>good-cart__page</find>
-      <find>hits-page__columns__left-column_category-filter</find>
-      <find>good-description_next-page</find>
-      <find>textat</find>
-      <find>good-cart__container__stars-block_star</find>
-      <find>good-description__container_description_old-comments</find>
-      <find>class=&quot;good-cart__container__color-stars-container&quot;</find>
-      <find>.good-description__container_description_ul_li_left-span-hr</find>
-      <find>.good-cart__container__btns</find>
-      <find>good-cart__container__btns_to-card-fav</find>
-      <find>.good-cart__container__btns_to-card-fav</find>
-      <find>.good-cart__container__right</find>
-      <find>good-description__container__btns-block_btn_comments-span</find>
-      <find>top-pa</find>
       <find>sect</find>
       <find>sec</find>
       <find>bread</find>
       <find>good-description__container_description3</find>
-      <find>texta</find>
-      <find>textar</find>
       <find>specific-news-top__article</find>
       <find>.good-cart__container__right</find>
       <find>.specific-news-top__article</find>
+      <find>texta</find>
+      <find>textar</find>
+      <find>brea</find>
+      <find>secti</find>
+      <find>personal-top__container</find>
+      <find>personal-bottom__container_content__right__check</find>
+      <find>top-pa</find>
+      <find>.personal-bottom__container_content__left</find>
+      <find>personal-bottom__container_content__right_discount-table_left</find>
+      <find>personal-bottom__container_content__right_discount-table</find>
+      <find>personal-bottom__container_content__right</find>
+      <find>personal-bottom__container_content__right__personal-data_ul_li_input-span-text</find>
+      <find>.personal-bottom__container_content__left .personal-bottom__container_content__left_li:last-child</find>
+      <find>Заказать звоно</find>
+      <find>personal-bottom__container_content__right3</find>
+      <find>personal-bottom__container_content__right4_sub-main</find>
+      <find>personal-bottom__container_content__right4_main</find>
+      <find>personal-bottom__container_content__right_discount-table</find>
+      <find>personal-top__container_logout</find>
+      <find>personal-bottom__container_content__right__personal-data_ul</find>
+      <find>personal-bottom__container_content__right__personal-data_ul</find>
+      <find>personal-bottom__container_content__right__personal-data_ul_li</find>
+      <find>.personal-bottom__container_content__right__personal-data_ul_li_input</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -157,8 +169,10 @@
         <option value="$PROJECT_DIR$/js/good-card.js" />
         <option value="$PROJECT_DIR$/good-cart.html" />
         <option value="$PROJECT_DIR$/news.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/specific-news.html" />
+        <option value="$PROJECT_DIR$/js/personal-account.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/personal-account.html" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
       </list>
     </option>
@@ -242,18 +256,18 @@
       <workItem from="1571402980752" duration="20699000" />
       <workItem from="1571500414269" duration="17513000" />
       <workItem from="1571576807969" duration="20330000" />
-      <workItem from="1571653691690" duration="16160000" />
+      <workItem from="1571653691690" duration="31130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239126000" />
+    <option name="totallyTimeSpent" value="254096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13382508" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.060590096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -410,16 +424,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hits.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="809" selection-start-line="809" selection-end-line="827" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/news.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
+        <state relative-caret-position="-8248">
           <caret line="842" column="53" selection-start-line="842" selection-start-column="49" selection-end-line="842" selection-end-column="53" />
         </state>
       </provider>
@@ -431,24 +438,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/hits.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="2518" column="26" selection-start-line="2518" selection-start-column="26" selection-end-line="2518" selection-end-column="26" />
+        <state relative-caret-position="281">
+          <caret line="809" selection-end-line="1829" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/specific-news.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="872" column="62" selection-start-line="872" selection-start-column="24" selection-end-line="872" selection-end-column="62" />
+        <state relative-caret-position="516">
+          <caret line="824" column="76" lean-forward="true" selection-start-line="824" selection-start-column="76" selection-end-line="824" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../frontend/global-js/infrastructure.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/personal-account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personal-account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="1035" column="151" selection-start-line="1035" selection-start-column="91" selection-end-line="1035" selection-end-column="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="2794" column="21" lean-forward="true" selection-start-line="2794" selection-start-column="21" selection-end-line="2794" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="1852" column="28" selection-start-line="1852" selection-start-column="28" selection-end-line="1852" selection-end-column="28" />
+        <state relative-caret-position="776">
+          <caret line="956" column="28" selection-start-line="956" selection-start-column="28" selection-end-line="956" selection-end-column="28" />
         </state>
       </provider>
     </entry>
