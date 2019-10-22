@@ -1483,6 +1483,9 @@
     .delivery__container .delivery__container_p {
         margin-bottom: 10px;
     }
+    .payment__container__left_p_container:not(:first-child) {
+        margin-top: 25px;
+    }
     /*Доставка*/
     /*Контакты*/
     .contacts__container__left_city-choose_city {
@@ -1500,12 +1503,13 @@
         line-height: 14px;
     }
     .contacts__container__left_city-choose_link_first {
-        margin-top: 20px;
+        margin-top: 40px;
     }
     .contacts__container__left_city-choose_p {
         font-size: 12px;
         line-height: 14px;
         height: 25px;
+        margin-top: 10px;
     }
     .contacts__container__left_city-choose__soscial_link_img {
         width: 36px;
@@ -2015,7 +2019,7 @@
     .personal-bottom__container_content__right_discount-table_left_p {
         font-size: 12px;
         line-height: 14px;
-        width: 120px;
+        width: 49%;
     }
     .personal-bottom__container_content__right_discount-table_left {
         display: flex;
@@ -2044,6 +2048,9 @@
         font-size: 12px;
         margin-top: 8px;
         line-height: normal;
+    }
+    .personal-bottom__container_content__right_discount-table_left {
+        margin-right: 0;
     }
          /*Личный кабинет*/
 }
