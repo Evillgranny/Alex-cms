@@ -1,14 +1,16 @@
 window.onload = function () {
-
     $('.main__slider').on('beforeChange', function(event, slick, currentSlide){
         $('.slick-center .main__slider__item').removeClass('big-main-img')
     });
+
     $('.main__slider').on('init afterChange', function(event, slick, currentSlide){
         $('.main__slider__item').removeClass('big-main-img')
         if ($('.slick-slide').hasClass('slick-active')) {
             $('.slick-center .main__slider__item').addClass('big-main-img')
         }
     });
+
+
     $('.main__slider').slick({
         centerMode: true,
         slidesToShow: 1,
@@ -29,6 +31,7 @@ window.onload = function () {
             }
         ]
     });
+
     $('.brands-slider').slick({
         slidesToShow: 5,
         nextArrow: `<button class="brands-slider-next"></button>`,

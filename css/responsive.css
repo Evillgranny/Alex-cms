@@ -965,6 +965,53 @@
         line-height: 14px;
     }
     /*Личный кабинет*/
+    /*Модалка на главной*/
+    .good-modal__content {
+        width: 620px;
+        flex-direction: column;
+    }
+    .good-modal__content__left {
+        width: auto;
+    }
+    .good-modal__content__left {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .good-modal__content__right_top {
+        padding-top: 0;
+        width: 100%;
+    }
+    .good-modal__content__right {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .good-modal__content__right_text {
+        width: 100%;
+    }
+    .good-modal__content__right_top_main {
+        width: 270px;
+    }
+    .good-modal__content__right_category-main {
+        width: 100%;
+    }
+    .good-modal__content__right__bottom .cart-container__ul_li_counter {
+        position: static;
+    }
+    .good-modal__content__right__bottom {
+        margin-right: 0;
+    }
+    .good-modal__content__right_price {
+        padding-right: 0;
+    }
+    .div-for-select {
+        left: 20px;
+        top: 12px;
+    }
+    .div-for-select__ul {
+        left: 0;
+        top: 20px;
+    }
+    /*Модалка на главной*/
 }
 @media screen and (max-width: 730px) {
     .wrapper {
@@ -2053,6 +2100,53 @@
         margin-right: 0;
     }
          /*Личный кабинет*/
+    /*модалка на главной*/
+    .good-modal__content {
+        width: 100%;
+    }
+    .good-modal__content__left__slider {
+        width: 260px;
+    }
+    .good-modal__content__right_top {
+        flex-direction: column;
+        width: 280px;
+    }
+    .good-modal__content__right_top_main {
+        width: 280px;
+    }
+    .good-modal__content__right_top_right {
+        justify-content: space-between;
+        width: 280px;
+        margin-top: 14px;
+    }
+    .good-modal__content__right_text {
+        margin-top: 39px;
+    }
+    .good-modal__content__right_text {
+        margin-bottom: 20px;
+    }
+    .good-modal__content__right_category__ul {
+        display: block;
+    }
+    .good-modal__content__right_price {
+        text-align: left;
+    }
+    .good-modal__content__right__bottom {
+        flex-wrap: wrap;
+    }
+    .good-modal__content__right__bottom_btn {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .cart-container__ul_li_counter_btn-main {
+        height: 46px;
+        width: 40px;
+    }
+    .cart-container__ul_li_counter_btn-amount {
+        height: 46px;
+        width: 40px;
+    }
+    /*модалка на главной*/
 }
 @media screen and (max-width: 630px) {
     .main__slider__item {
