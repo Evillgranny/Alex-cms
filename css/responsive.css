@@ -2110,9 +2110,13 @@
     .good-modal__content__right_top {
         flex-direction: column;
         width: 280px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .good-modal__content__right_top_main {
         width: 280px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .good-modal__content__right_top_right {
         justify-content: space-between;
@@ -2121,6 +2125,9 @@
     }
     .good-modal__content__right_text {
         margin-top: 39px;
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .good-modal__content__right_text {
         margin-bottom: 20px;
@@ -2130,9 +2137,15 @@
     }
     .good-modal__content__right_price {
         text-align: left;
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .good-modal__content__right__bottom {
         flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        width: 280px;
     }
     .good-modal__content__right__bottom_btn {
         width: 100%;
@@ -2145,6 +2158,29 @@
     .cart-container__ul_li_counter_btn-amount {
         height: 46px;
         width: 40px;
+    }
+    .good-modal__content__left {
+        height: auto;
+        min-height: 300px;
+    }
+    .good-modal__content__right {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .good-modal__content__right_category-main {
+        margin-left: auto;
+        margin-right: auto;
+        width: 280px;
+    }
+    .good-modal__content__right_category__ul {
+        margin-left: auto;
+        margin-right: auto;
+        width: 280px;
+    }
+    .good-modal__content__right_category__color-ul {
+        margin-left: auto;
+        margin-right: auto;
+        width: 280px;
     }
     /*модалка на главной*/
 }

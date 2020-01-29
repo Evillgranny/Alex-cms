@@ -120,6 +120,7 @@ $('.popup').click(function (e) {
 $('#enter').click(function () {
     $('.login-popup').fadeIn(500)
 });
+
 $('#reg').click(function () {
     $('.reg-popup').fadeIn(500)
 });
@@ -201,3 +202,7 @@ $('.dec').on('click', function() {
     const $input = $(this).closest('div').find('input');
     parseInt($input.val(), 10) > 1 && $input.val(parseInt($input.val(), 10) - 1);
 });
+
+$('.header__bottom-container__menu__top_item').mouseleave(function () {
+    console.log(1)
+})

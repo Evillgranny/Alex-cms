@@ -3082,7 +3082,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
-    line-height: 12px;
     color: #383E3E;
     text-align: right;
     padding-right: 100px;
@@ -3209,5 +3208,315 @@
 .div-for-select-open .div-for-select__ul {
     display: block;
 }
-
+.good-modal__content__left__slider_item {
+    display: block !important;
+}
 /*Модалка на главной*/
+.right-block {
+    background: blue;
+    width: 780px;
+    height: 900px;
+}
+/*Новый CSS корзины*/
+
+.total_sum-price {
+    width: 380px;
+    position: fixed;
+    top: 92px;
+    left: calc(50% + 211px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #B8B8B8;
+    z-index: 5000;
+}
+.total_sum-price__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 40px;
+    background: #EF5656;
+    width: 100%;
+}
+.total_sum-price__top_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.total_sum-price__cupon {
+    border-bottom: 1px solid #B8B8B8;
+    background: #fff;
+    padding-top: 9px;
+}
+.total_sum-price__cupon_flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 12px 3px 12px;
+}
+.input_coupon {
+    width: 168px;
+    height: 40px;
+    border: 1px solid #B8B8B8;
+    font-size: 18px;
+    padding: 0 20px;
+    display: block;
+    text-align: center;
+}
+.coupon_button {
+    width: 168px;
+    height: 40px;
+    border: none;
+    background: #E85654;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    transition: .3s;
+}
+.total_sum-price_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #383E3E;
+}
+.total_sum-price_text-red {
+    color: #E85654;
+}
+.total_sum-price_text-vopr {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: url(../img/vopr.png) no-repeat center center / contain;
+    display: inline-block;
+}
+.total_sum-price_text-vopr__text {
+    min-width: 200px;
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+    bottom: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    background: rgba(56, 62, 62, 0.9);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 9px 24px;
+    transition: .3s;
+    left: 10px;
+}
+.total_sum-price_text-vopr:hover .total_sum-price_text-vopr__text {
+    opacity: 1;
+}
+.discount-price {
+    background: #FAFAFA;
+    padding: 16px 12px 12px 12px;
+}
+.total_sum-price_btn {
+    border: none;
+    background: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #383E3E;
+    cursor: pointer;
+}
+.total_sum-price__item {
+    min-height: 52px;
+    border-bottom: 1px solid #B8B8B8;
+    background: #fff;
+    padding: 3px 12px 9px 12px;
+    position: relative;
+}
+.total_sum-price__item_grey-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B8B8B8;
+    position: relative;
+    bottom: -18px;
+    pointer-events: none;
+}
+.total_sum-price__item_input {
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #383E3E;
+    border: none;
+    margin-top: 3px;
+}
+.total_sum-price__bottom-result {
+    background: #EDEEEE;
+    display: flex;
+    align-items: center;
+    height: 52px;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #383E3E;
+}
+.total_sum-price__bottom-btn {
+    background: #E85654;
+    height: 44px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.delivery-modal {
+    width: 780px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15), 0px 2px 4px rgba(56, 62, 62, 0.2);
+    position: fixed;
+    top: 92px;
+    background: #fff;
+    padding: 30px 0;
+    z-index: 5000;
+}
+.total_sum-price__item__delivery-container__top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.total_sum-price__item__delivery-container_main {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #383E3E;
+    margin-right: 40px;
+    margin-left: 30px;
+}
+.total_sum-price__item__delivery-container_city-choose {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #383E3E;
+    position: relative;
+}
+.total_sum-price__item__delivery-container_city-choose::after {
+    content: url(../img/mini-arr.png);
+    margin-left: 5px;
+}
+.total_sum-price__item__delivery-container_city-choose__container {
+    min-width: 200px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+    padding: 9px;
+    position: absolute;
+    left: 0;
+    display: none;
+    z-index: 2;
+}
+.total_sum-price__item__delivery-container_city-choose:hover .total_sum-price__item__delivery-container_city-choose__container {
+    display: block;
+}
+.total_sum-price__item__delivery-container_city-choose__container_li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #383E3E;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    cursor: pointer;
+    text-align: left;
+}
+.total_sum-price__item__delivery-container_city-choose__container_li.checked {
+    color: #E85654;
+}
+.total_sum-price__item__delivery-container_city-choose_span {
+    cursor: pointer;
+}
+.total_sum-price__item__delivery-container_city-choose__container_li:hover {
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
+}
+.delivery_item {
+    padding: 14px 30px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+.delivery_item_main {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: justify;
+    color: #383E3E;
+}
+.delivery_item__description {
+    margin-top: 12px;
+    width: 580px;
+    overflow: hidden;
+    height: 0;
+}
+.delivery_item.checked {
+    background: #FAFAFA;
+    border: 1px solid #B8B8B8;
+}
+.delivery_item__description__container {
+    display: flex;
+    justify-content: space-between;
+}
+.delivery_item__description__price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #E85654;
+    position: relative;
+    top: -22px;
+}
+.delivery_btn {
+    width: 220px;
+    height: 40px;
+    border: none;
+    background: #E85654;
+    cursor: pointer;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    transition: .3s;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.delivery_btn:hover {
+    background: #DE413F;
+    box-shadow: 5px 5px 10px rgba(102, 30, 29, 0.1);
+}
+/*Новый CSS корзины*/

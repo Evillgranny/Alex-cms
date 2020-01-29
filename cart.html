@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Alex CMS | Cart</title>
-    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="stylesheet" href="slick/slick.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
@@ -827,177 +825,300 @@
 
 <section class="cart">
     <div class="wrapper">
-        <div class="cart-container">
-            <a href="#" class="comparison__container__clean">
-                Очистить корзину
-            </a>
-            <ul class="cart-container__ul">
-                <li class="cart-container__ul_li">
-                    <img src="img/card-img.png" alt="" class="cart-container__ul_li_img">
-                    <div class="cart-container__ul_li_description">
-                        <h3 class="cart-container__ul_li_description_main">
-                            Тюркан 2019
-                        </h3>
-                        <p class="cart-container__ul_li_description_p cart-container__ul_li_description_p-b">
-                            Производитель
-                        </p>
-                        <p class="cart-container__ul_li_description_p">
-                            2-местный диван, чехол съемный: светло- бежевый/дерево
-                        </p>
-                    </div>
-                    <div class="cart-container__ul_li_counter">
-                        <button class="dec cart-container__ul_li_counter_btn">–</button>
-                        <input class="amount" value="1" readonly>
-                        <button class="inc cart-container__ul_li_counter_btn">+</button>
-                    </div>
-                    <p class="cart-container__ul_li_price">
-                        <span class="good-card__bottom_price_roub">352,</span><span class="good-card__bottom_price_cop">00 BYN</span>
-                    </p>
-                    <img src="img/nogar.png" alt="" class="cart-container__ul_li_ga">
-                    <img src="img/black-cross.png" alt="" class="cart-container__ul_li_cross">
-                </li>
+        <div class="right-block">
 
-                <li class="cart-container__ul_li">
-                    <img src="img/card-img.png" alt="" class="cart-container__ul_li_img">
-                    <div class="cart-container__ul_li_description">
-                        <h3 class="cart-container__ul_li_description_main">
-                            Тюркан 2019
-                        </h3>
-                        <p class="cart-container__ul_li_description_p cart-container__ul_li_description_p-b">
-                            Производитель
-                        </p>
-                        <p class="cart-container__ul_li_description_p">
-                            2-местный диван, чехол съемный: светло- бежевый/дерево
-                        </p>
-                    </div>
-                    <div class="cart-container__ul_li_counter">
-                        <button class="dec cart-container__ul_li_counter_btn">–</button>
-                        <input class="amount" value="1" readonly>
-                        <button class="inc cart-container__ul_li_counter_btn">+</button>
-                    </div>
-                    <p class="cart-container__ul_li_price">
-                        <span class="good-card__bottom_price_roub">352,</span><span class="good-card__bottom_price_cop">00 BYN</span>
-                    </p>
-                    <img src="img/nogar.png" alt="" class="cart-container__ul_li_ga">
-                    <img src="img/black-cross.png" alt="" class="cart-container__ul_li_cross">
-                </li>
+        </div>
+        <div class="total_sum-price">
+            <div class="total_sum-price__top">
+                <p class="total_sum-price__top_text">
+                    Выбрано товаров: 10
+                </p>
+                <p class="total_sum-price__top_text">
+                    На сумму: 252Р
+                </p>
+            </div>
+            <div class="total_sum-price__cupon">
+                <div class="total_sum-price__cupon_flex">
+                    <input type="text" class="input_coupon" placeholder="Купон">
+                    <input type="submit" class="coupon_button" value="Применить">
+                </div>
 
-                <li class="cart-container__ul_li">
-                    <img src="img/card-img.png" alt="" class="cart-container__ul_li_img">
-                    <div class="cart-container__ul_li_description">
-                        <h3 class="cart-container__ul_li_description_main">
-                            Тюркан 2019
-                        </h3>
-                        <p class="cart-container__ul_li_description_p cart-container__ul_li_description_p-b">
-                            Производитель
-                        </p>
-                        <p class="cart-container__ul_li_description_p">
-                            2-местный диван, чехол съемный: светло- бежевый/дерево
-                        </p>
-                    </div>
-                    <div class="cart-container__ul_li_counter">
-                        <button class="dec cart-container__ul_li_counter_btn">–</button>
-                        <input class="amount" value="1" readonly>
-                        <button class="inc cart-container__ul_li_counter_btn">+</button>
-                    </div>
-                    <p class="cart-container__ul_li_price">
-                        <span class="good-card__bottom_price_roub">352,</span><span class="good-card__bottom_price_cop">00 BYN</span>
+                <div class="total_sum-price__cupon_flex">
+                    <p class="total_sum-price_text">
+                        Бонус:
+                        <span class="total_sum-price_text-red">
+                        10 баллов
+                    </span>
+                        <span class="total_sum-price_text-vopr">
+                         <span class="total_sum-price_text-vopr__text">
+                              1 балл = 1 рубль
+                         </span>
+                     </span>
                     </p>
-                    <img src="img/nogar.png" alt="" class="cart-container__ul_li_ga">
-                    <img src="img/black-cross.png" alt="" class="cart-container__ul_li_cross">
-                </li>
-            </ul>
+                    <button class="total_sum-price_btn">
+                        Списать?
+                    </button>
+                </div>
+
+                <div class="discount-price">
+                    <p class="total_sum-price_text">
+                        Сумма с учётом скидок:
+                        <span class="total_sum-price_text-red">
+                        51,00Р
+                    </span>
+                    </p>
+                </div>
+
+                <div class="total_sum-price__item">
+                    <label>
+                        <p class="total_sum-price__item_grey-text">
+                            Ваше Имя и Фамилия
+                        </p>
+                        <input type="text" class="total_sum-price__item_input">
+                    </label>
+                </div>
+
+                <div class="total_sum-price__item">
+                    <label>
+                        <p class="total_sum-price__item_grey-text">
+                            Ваш номер телефона
+                        </p>
+                        <input type="text" class="total_sum-price__item_input">
+                    </label>
+                </div>
+
+                <div class="total_sum-price__item">
+                    <label>
+                        <p class="total_sum-price__item_grey-text">
+                            Ваш e-mail
+                        </p>
+                        <input type="text" class="total_sum-price__item_input">
+                    </label>
+                </div>
+
+                <div class="total_sum-price__item">
+                    <label>
+                        <p class="total_sum-price__item_grey-text">
+                            Способ доставки
+                        </p>
+                        <input type="text" class="total_sum-price__item_input">
+                    </label>
+                </div>
+
+                <div class="total_sum-price__item">
+                    <label>
+                        <p class="total_sum-price__item_grey-text">
+                            Способ оплаты
+                        </p>
+                        <input type="text" class="total_sum-price__item_input">
+                    </label>
+                </div>
+
+                <div class="total_sum-price__item">
+                    <label>
+                        <p class="total_sum-price__item_grey-text">
+                            Комментарий к заказу
+                        </p>
+                        <input type="text" class="total_sum-price__item_input">
+                    </label>
+                </div>
+                <div class="total_sum-price__bottom-result">
+                    Итого: 3 168,00 BYN
+                </div>
+                <button class="total_sum-price__bottom-btn">
+                    Оформить заказ
+                </button>
+            </div>
+        </div>
+
+
+        <!--Модалка-->
+        <div class="delivery-modal">
+            <div class="total_sum-price__item__delivery-container__top">
+                <h3 class="total_sum-price__item__delivery-container_main">Выберите способ доставки</h3>
+                <div class="total_sum-price__item__delivery-container_city-choose">
+                    <span class="total_sum-price__item__delivery-container_city-choose_span">Минск</span>
+                    <ul class="total_sum-price__item__delivery-container_city-choose__container">
+                        <li class="total_sum-price__item__delivery-container_city-choose__container_li checked">
+                            Минск
+                        </li>
+                        <li class="total_sum-price__item__delivery-container_city-choose__container_li">
+                            Барановичи
+                        </li>
+                        <li class="total_sum-price__item__delivery-container_city-choose__container_li">
+                            Брест
+                        </li>
+                        <li class="total_sum-price__item__delivery-container_city-choose__container_li">
+                            Витебск
+                        </li>
+                        <li class="total_sum-price__item__delivery-container_city-choose__container_li">
+                            Гомель
+                        </li>
+                        <li class="total_sum-price__item__delivery-container_city-choose__container_li">
+                            Гродно
+                        </li>
+                        <li class="total_sum-price__item__delivery-container_city-choose__container_li">
+                            Логойск
+                        </li>
+                        <li class="total_sum-price__item__delivery-container_city-choose__container_li">
+                            Пинск
+                        </li>
+                        <li class="total_sum-price__item__delivery-container_city-choose__container_li">
+                            Сморгонь
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="delivery_item">
+                <h3 class="delivery_item_main">
+                    - Курьером по Минску (бесплатно от 20,00 руб.)
+                </h3>
+                <div class="delivery_item__description__container">
+                    <div class="delivery_item__description">
+                        Курьерская доставка осуществляется на следующий день после
+                        оформления заказа, если товар есть в наличии, с 10.00 до 21.00.
+                        Вы выбираете удобное время доставки из возможных вариантов
+                        — и мы доставим заказ в течение 3 указанных часов.
+                        Вы подтверждаете, что сможете принять заказ в выбранный
+                        вами промежуток. Курьер перед доставкой свяжется с вами.
+                    </div>
+                    <span class="delivery_item__description__price">
+                         0 BYN
+                    </span>
+                </div>
+            </div>
+
+            <div class="delivery_item">
+                <h3 class="delivery_item_main">
+                    -  Самовывоз из магазина на пр-те Победителей, 3
+                </h3>
+                <div class="delivery_item__description__container">
+                    <div class="delivery_item__description">
+                        Курьерская доставка осуществляется на следующий день после
+                        оформления заказа, если товар есть в наличии, с 10.00 до 21.00.
+                        Вы выбираете удобное время доставки из возможных вариантов
+                        — и мы доставим заказ в течение 3 указанных часов.
+                        Вы подтверждаете, что сможете принять заказ в выбранный
+                        вами промежуток. Курьер перед доставкой свяжется с вами.
+                    </div>
+                    <span class="delivery_item__description__price">
+                         0 BYN
+                    </span>
+                </div>
+            </div>
+
+            <div class="delivery_item">
+                <h3 class="delivery_item_main">
+                    - Самовывоз из магазина на ул.Строителей, 24
+                </h3>
+                <div class="delivery_item__description__container">
+                    <div class="delivery_item__description">
+                        Курьерская доставка осуществляется на следующий день после
+                        оформления заказа, если товар есть в наличии, с 10.00 до 21.00.
+                        Вы выбираете удобное время доставки из возможных вариантов
+                        — и мы доставим заказ в течение 3 указанных часов.
+                        Вы подтверждаете, что сможете принять заказ в выбранный
+                        вами промежуток. Курьер перед доставкой свяжется с вами.
+                    </div>
+                    <span class="delivery_item__description__price">
+                         0 BYN
+                    </span>
+                </div>
+            </div>
+
+            <div class="delivery_item">
+                <h3 class="delivery_item_main">
+                    - Самовывоз из магазина на пр-те Независимости, 10
+                </h3>
+                <div class="delivery_item__description__container">
+                    <div class="delivery_item__description">
+                        Курьерская доставка осуществляется на следующий день после
+                        оформления заказа, если товар есть в наличии, с 10.00 до 21.00.
+                        Вы выбираете удобное время доставки из возможных вариантов
+                        — и мы доставим заказ в течение 3 указанных часов.
+                        Вы подтверждаете, что сможете принять заказ в выбранный
+                        вами промежуток. Курьер перед доставкой свяжется с вами.
+                    </div>
+                    <span class="delivery_item__description__price">
+                         0 BYN
+                    </span>
+                </div>
+            </div>
+
+            <div class="delivery_item">
+                <h3 class="delivery_item_main">
+                    - Самовывоз из магазина на ул.Кижеватова, 23
+                </h3>
+                <div class="delivery_item__description__container">
+                    <div class="delivery_item__description">
+                        Курьерская доставка осуществляется на следующий день после
+                        оформления заказа, если товар есть в наличии, с 10.00 до 21.00.
+                        Вы выбираете удобное время доставки из возможных вариантов
+                        — и мы доставим заказ в течение 3 указанных часов.
+                        Вы подтверждаете, что сможете принять заказ в выбранный
+                        вами промежуток. Курьер перед доставкой свяжется с вами.
+
+                        Курьерская доставка осуществляется на следующий день после
+                        оформления заказа, если товар есть в наличии, с 10.00 до 21.00.
+                        Вы выбираете удобное время доставки из возможных вариантов
+                        — и мы доставим заказ в течение 3 указанных часов.
+                        Вы подтверждаете, что сможете принять заказ в выбранный
+                        вами промежуток. Курьер перед доставкой свяжется с вами.
+
+                        Курьерская доставка осуществляется на следующий день после
+                        оформления заказа, если товар есть в наличии, с 10.00 до 21.00.
+                        Вы выбираете удобное время доставки из возможных вариантов
+                        — и мы доставим заказ в течение 3 указанных часов.
+                        Вы подтверждаете, что сможете принять заказ в выбранный
+                        вами промежуток. Курьер перед доставкой свяжется с вами.
+                    </div>
+                    <span class="delivery_item__description__price">
+                         0 BYN
+                    </span>
+                </div>
+            </div>
+
+            <div class="delivery_item">
+                <h3 class="delivery_item_main">
+                    - Почтой по Беларуси (12 000 г)
+                </h3>
+                <div class="delivery_item__description__container">
+                    <div class="delivery_item__description">
+                        Курьерская доставка осуществляется на следующий день после
+                        оформления заказа, если товар есть в наличии, с 10.00 до 21.00.
+                        Вы выбираете удобное время доставки из возможных вариантов
+                        — и мы доставим заказ в течение 3 указанных часов.
+                        Вы подтверждаете, что сможете принять заказ в выбранный
+                        вами промежуток. Курьер перед доставкой свяжется с вами.
+
+                        Курьерская доставка осуществляется на следующий день после
+                        оформления заказа, если товар есть в наличии, с 10.00 до 21.00.
+                        Вы выбираете удобное время доставки из возможных вариантов
+                        — и мы доставим заказ в течение 3 указанных часов.
+                        Вы подтверждаете, что сможете принять заказ в выбранный
+                        вами промежуток. Курьер перед доставкой свяжется с вами.
+
+                        Курьерская доставка осуществляется на следующий день после
+                        оформления заказа, если товар есть в наличии, с 10.00 до 21.00.
+                        Вы выбираете удобное время доставки из возможных вариантов
+                        — и мы доставим заказ в течение 3 указанных часов.
+                        Вы подтверждаете, что сможете принять заказ в выбранный
+                        вами промежуток. Курьер перед доставкой свяжется с вами.
+                    </div>
+                    <span class="delivery_item__description__price">
+                         15 BYN
+                    </span>
+                </div>
+            </div>
+            <button class="delivery_btn">
+                Продолжить
+            </button>
         </div>
     </div>
 </section>
 
-<section class="order-registration">
-    <div class="wrapper">
-        <form action="" class="order-registration__form">
-            <h3 class="order-registration__form_main">Оформление заказа</h3>
-            <div class="order-registration__container">
-                <div class="order-registration__container__left-inputs">
-                    <input type="text" placeholder="Ваше имя" class="order-registration__container__left-inputs_input">
-                    <input type="text" placeholder="Номер телефона" class="order-registration__container__left-inputs_input order-registration__container__left-inputs_input-mt">
-                </div>
-                <div class="order-registration__container__left-dds">
-                    <div class="order-registration__container__left-dds_dd">
-                    <span class="order-registration__container__left-dds_dd_span">
-                        Способ доставки
-                    </span>
-                        <img src="img/grey-dd-arr.png" alt="" class="order-registration__container__left-dds_dd_img">
-                        <ul class="order-registration__container__left-dds_dd__ul">
-                            <li class="order-registration__container__left-dds_dd__ul_li">
-                                Почта
-                                <label>
-                                    <input type="radio" checked name="delivery" class="order-registration__container__left-dds_dd__ul_li_checkbox">
-                                    <span class="order-registration__container__left-dds_dd__ul_li_checkbox-span"></span>
-                                </label>
-                            </li>
-                            <li class="order-registration__container__left-dds_dd__ul_li">
-                                Курьер
-                                <label>
-                                    <input type="radio" name="delivery" class="order-registration__container__left-dds_dd__ul_li_checkbox">
-                                    <span class="order-registration__container__left-dds_dd__ul_li_checkbox-span"></span>
-                                </label>
-                            </li>
-                            <li class="order-registration__container__left-dds_dd__ul_li">
-                                Самовывоз
-                                <label>
-                                    <input type="radio" name="delivery" class="order-registration__container__left-dds_dd__ul_li_checkbox">
-                                    <span class="order-registration__container__left-dds_dd__ul_li_checkbox-span"></span>
-                                </label>
-                            </li>
-                        </ul>
-                    </div>
 
-                    <div class="order-registration__container__left-dds_dd order-registration__container__left-dds_dd-mt">
-                    <span class="order-registration__container__left-dds_dd_span">
-                        Способ оплаты
-                    </span>
-                        <img src="img/grey-dd-arr.png" alt="" class="order-registration__container__left-dds_dd_img">
-                        <ul class="order-registration__container__left-dds_dd__ul">
-                            <li class="order-registration__container__left-dds_dd__ul_li">
-                                Наличные
-                                <label>
-                                    <input type="radio" name="payment" class="order-registration__container__left-dds_dd__ul_li_checkbox">
-                                    <span class="order-registration__container__left-dds_dd__ul_li_checkbox-span"></span>
-                                </label>
-                            </li>
-                            <li class="order-registration__container__left-dds_dd__ul_li">
-                                Карта
-                                <label>
-                                    <input type="radio" name="payment" class="order-registration__container__left-dds_dd__ul_li_checkbox">
-                                    <span class="order-registration__container__left-dds_dd__ul_li_checkbox-span"></span>
-                                </label>
-                            </li>
-                            <li class="order-registration__container__left-dds_dd__ul_li">
-                                Онлайн
-                                <label>
-                                    <input type="radio" name="payment" class="order-registration__container__left-dds_dd__ul_li_checkbox">
-                                    <span class="order-registration__container__left-dds_dd__ul_li_checkbox-span"></span>
-                                </label>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <textarea class="order-registration__container__textarea" placeholder="Комментарий к заказу"></textarea>
-                <div class="order-registration__container__right">
-                    <div class="order-registration__container__right_total">
-                        Итого 3 товара
-                    </div>
-
-                    <div class="order-registration__container__right_price">
-                        Сумма: 1 056,00 BYN
-                    </div>
-                </div>
-            </div>
-            <button class="order-registration__btn">
-                Оформить заказ
-            </button>
-        </form>
-    </div>
-</section>
 
 <section class="promo promo-border">
     <div class="wrapper">
@@ -1403,8 +1524,21 @@
         </form>
     </div>
 </section>
+<!--jQuery подключать не надо-->
 <script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/global.js"></script>
-<script src="js/cart-script.js"></script>
+<!--Скрипт для аккордиона-->
+<script>
+    $('.delivery_item').click(function () {
+        if (!$(this).hasClass('checked')) {
+            $('.delivery_item').removeClass('checked')
+            $('.delivery_item').find('.delivery_item__description').animate({'height' : 0}, 500)
+            $(this).find('.delivery_item__description').css('height', 'auto')
+            let originaH = $(this).height()
+            $(this).find('.delivery_item__description').css('height', '0')
+            $(this).find('.delivery_item__description').animate({'height' : originaH}, 500)
+            $(this).addClass('checked')
+        }
+    })
+</script>
 </body>
 </html>
